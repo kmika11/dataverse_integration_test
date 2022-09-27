@@ -12,5 +12,5 @@ jobs:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://demo.dataverse.org
           DATAVERSE_DATASET_DOI: doi:10.70122/FK2/QSMJFF
-          DELETE: False
+          DELETE: True
           GITHUB_DIR: data
